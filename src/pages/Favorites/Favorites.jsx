@@ -1,6 +1,6 @@
 import React from "react";
 import FavoritesPage from "../../components/FavoritesPages/FavoritesPage";
-import { FavoriteContainer, PageCont } from "./Favorites.styled";
+import { FavoriteContainer, PageCont } from "./Favorites.styled.jsx";
 
 const Favorites = () => {
   return (

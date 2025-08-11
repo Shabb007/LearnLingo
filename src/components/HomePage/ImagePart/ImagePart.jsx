@@ -4,7 +4,7 @@ import {
   IconAppleContainer,
   ImageBox,
   ImagePartContainer,
-} from "./ImagePart.styled";
+} from "./ImagePart.styled.jsx";
 
 const ImagePart = () => {
   return (

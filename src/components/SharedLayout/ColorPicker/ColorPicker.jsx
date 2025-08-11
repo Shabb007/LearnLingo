@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sprite from "../../../icons/icons.svg";
-import { ChangeColorBtn } from "./ColorPicker.styled";
+import { ChangeColorBtn } from "./ColorPicker.styled.jsx";
 
 const themes = ["theme1", "theme2", "theme3", "theme4", "theme5"];
 

@@ -3,7 +3,7 @@ import FavoriteItem from "../FavoriteItem/FavoriteItem";
 import {
   List,
   ShowMoreBtn,
-} from "../../../Teachers/ListTeachers/ListTeachers.styled";
+} from "../../../Teachers/ListTeachers/ListTeachers.styled.jsx";
 
 const ListFavTeach = ({ favorites, setFavorites }) => {
   const [teachersPerPage, setTeachersPerPage] = useState(4);

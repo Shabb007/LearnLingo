@@ -10,7 +10,7 @@ import MobileMenu from "./MobileMenu/MobileMenu";
 import Login from "../Modal/Login/Login";
 import Register from "../Modal/Register/Register";
 import { whenLogOut } from "../../firebase/api";
-import { ContainerHeader, MainSection } from "./SharedLayout.styled";
+import { ContainerHeader, MainSection } from "./SharedLayout.styled.jsx";
 
 const SharedLayout = () => {
   const [isShowMobile, setIsShowMobile] = useState(false);

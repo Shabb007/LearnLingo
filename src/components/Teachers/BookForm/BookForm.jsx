@@ -1,5 +1,5 @@
 import React from "react";
-import { InfoTeacher, Paragraph, TitleForm } from "./BookForm.styled";
+import { InfoTeacher, Paragraph, TitleForm } from "./BookForm.styled.jsx";
 import FormUser from "./FormUser/FormUser";
 
 const BookForm = ({ name, surname, avatar_url, setShowBookModal }) => {

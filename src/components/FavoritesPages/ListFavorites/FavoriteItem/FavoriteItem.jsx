@@ -20,7 +20,7 @@ import {
   ReadMoreBtn,
   TitleCardContainer,
   UpperContent,
-} from "../../../Teachers/TeacherItem/TeacherItem.styled";
+} from "../../../Teachers/TeacherItem/TeacherItem.styled.jsx";
 
 const FavoriteItem = ({ teach, setFavorites, favorites }) => {
   const [showInfo, setShowInfo] = useState(false);

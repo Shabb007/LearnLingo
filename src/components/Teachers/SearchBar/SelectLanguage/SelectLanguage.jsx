@@ -5,7 +5,7 @@ import {
   SearchContainer,
   LabelSelect,
   SelectContainer,
-} from "./SelectLanguage.styled";
+} from "./SelectLanguage.styled.jsx";
 
 const SelectLanguage = ({ setLanguage }) => {
   const handleChange = (e) => {

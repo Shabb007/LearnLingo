@@ -9,8 +9,8 @@ import {
   GroupInputs,
   InputUser,
   BookSubmitBtn,
-} from "./FormUser.styled";
-import { StyledError } from "../../../Modal/Login/Login.styled";
+} from "./FormUser.styled.jsx";
+import { StyledError } from "../../../Modal/Login/Login.styled.jsx";
 import { toast } from "react-toastify";
 
 const valuesField = [

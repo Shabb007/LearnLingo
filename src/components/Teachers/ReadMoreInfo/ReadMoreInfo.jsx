@@ -1,5 +1,5 @@
 import React from "react";
-import { AddInfoContainer } from "./ReadMoreInfo.styled";
+import { AddInfoContainer } from "./ReadMoreInfo.styled.jsx";
 import Reviews from "./Reviews/Reviews";
 
 const ReadMoreInfo = ({ reviews, experience, setShowInfo }) => {

@@ -4,7 +4,7 @@ import {
   Title,
   TitleText,
   GetStartedBtn,
-} from "./MainTitle.styled";
+} from "./MainTitle.styled.jsx";
 
 const MainTitle = () => {
   return (

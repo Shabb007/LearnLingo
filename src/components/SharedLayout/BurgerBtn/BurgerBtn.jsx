@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BtnIcon, BurgerBtnContainer, Button } from "./BurgerBtn.styled";
+import { BtnIcon, BurgerBtnContainer, Button } from "./BurgerBtn.styled.jsx";
 
 const BurgerBtn = ({ isShowMobile, setIsShowMobile }) => {
   useEffect(() => {

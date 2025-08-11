@@ -2,7 +2,7 @@ import React from "react";
 import SelectLevel from "./SelectLevel/SelectLevel";
 import SelectLanguage from "./SelectLanguage/SelectLanguage";
 import SelectPrice from "./SelectPrice/SelectPrice";
-import { SearchSection } from "./SearchBar.styled";
+import { SearchSection } from "./SearchBar.styled.jsx";
 
 const SearchBar = ({ setLanguage, setLvl, setPrice }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { LevelsList } from "./Levels.styled";
+import { LevelsList } from "./Levels.styled.jsx";
 
 const Levels = ({ levels, lvl }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { createPortal } from "react-dom";
 import sprite from "../../../icons/icons.svg";
-import { Backdrop, CloseBtn, FormModal } from "../../Modal/Modal.styled";
+import { Backdrop, CloseBtn, FormModal } from "../../Modal/Modal.styled.jsx";
 
 const ModalBookLesson = ({ children, setShowBookModal }) => {
   const modalRoot = document?.getElementById("modal-root");

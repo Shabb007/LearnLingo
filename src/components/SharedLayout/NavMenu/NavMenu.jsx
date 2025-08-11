@@ -1,6 +1,6 @@
 import React from "react";
 import ColorPicker from "../ColorPicker/ColorPicker";
-import { NavMenuList, NavigationLink } from "./NavMenu.styled";
+import { NavMenuList, NavigationLink } from "./NavMenu.styled.jsx";
 
 const NavMenu = () => {
   const isLoggedIn = JSON.parse(localStorage.getItem("isLogin")) || false;

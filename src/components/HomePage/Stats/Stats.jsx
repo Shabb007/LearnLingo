@@ -1,5 +1,5 @@
 import React from "react";
-import { StatsContainer, StatsList } from "./Stats.styled";
+import { StatsContainer, StatsList } from "./Stats.styled.jsx";
 
 const Stats = () => {
   return (

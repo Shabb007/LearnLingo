@@ -2,7 +2,7 @@ import React from "react";
 import chica1 from "../../../../img/avatars_reviews/chica1.webp";
 import chico1 from "../../../../img/avatars_reviews/chico1.webp";
 import sprite from "../../../../icons/icons.svg";
-import { ImgContainer, ListReviewers, Reviewer } from "./Reviews.styled";
+import { ImgContainer, ListReviewers, Reviewer } from "./Reviews.styled.jsx";
 
 const Reviews = ({ reviews }) => {
   return (

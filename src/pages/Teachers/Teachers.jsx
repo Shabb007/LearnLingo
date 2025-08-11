@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ListTeachers from "../../components/Teachers/ListTeachers/ListTeachers";
 import SearchBar from "../../components/Teachers/SearchBar/SearchBar";
 import { getAllFiltered } from "../../firebase/api";
-import { PageCont, PageTeachers } from "./Teachers.styled";
+import { PageCont, PageTeachers } from "./Teachers.styled.jsx";
 
 const Teachers = () => {
   // local state for values of search selects

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import sprite from "../../icons/icons.svg";
-import { Backdrop, CloseBtn, FormModal } from "./Modal.styled";
+import { Backdrop, CloseBtn, FormModal } from "./Modal.styled.jsx";
 
 const Modal = ({ children, setShowLogin, setShowRegister }) => {
   const backdropRef = useRef(null);

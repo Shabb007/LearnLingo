@@ -14,7 +14,7 @@ import {
   LogoutBtn,
   RegisterBtn,
   UserName,
-} from "./MobileMenu.styled";
+} from "./MobileMenu.styled.jsx";
 
 const MobileMenu = ({ setShowLogin, setShowRegister, whenLogOut }) => {
   const isLoggedIn = JSON.parse(localStorage.getItem("isLogin")) || false;

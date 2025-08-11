@@ -1,5 +1,5 @@
 import React from "react";
-import { BookBtn } from "./BookLessonBtn.styled";
+import { BookBtn } from "./BookLessonBtn.styled.jsx";
 import { toast } from "react-toastify";
 
 const BookLessonBtn = ({ setShowBookModal }) => {

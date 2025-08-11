@@ -1,6 +1,6 @@
 import React from "react";
 import noteachersImg from "../../../../img/noteachers.webp";
-import { NoTeachersTitle, PictContainer } from "./NoFavorites.styled";
+import { NoTeachersTitle, PictContainer } from "./NoFavorites.styled.jsx";
 
 const NoFavorites = () => {
   return (

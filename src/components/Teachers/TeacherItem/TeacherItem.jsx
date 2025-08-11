@@ -25,7 +25,7 @@ import {
   ReadMoreBtn,
   TitleCardContainer,
   UpperContent,
-} from "./TeacherItem.styled";
+} from "./TeacherItem.styled.jsx";
 
 const TeacherItem = ({ teach, lvl }) => {
   const [showInfo, setShowInfo] = useState(false);

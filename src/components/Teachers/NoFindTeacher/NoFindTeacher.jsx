@@ -1,6 +1,6 @@
 import React from "react";
 import bookImg from "../../../img/book.webp";
-import { NoFindContainer } from "./NoFindTeachers.styled";
+import { NoFindContainer } from "./NoFindTeacher.styled.jsx";
 
 const NoFindTeacher = () => {
   return (

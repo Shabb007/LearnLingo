@@ -1,6 +1,6 @@
 import React from "react";
 import sprite from "../../../icons/icons.svg";
-import { LogoLink } from "./Logo.styled";
+import { LogoLink } from "./Logo.styled.jsx";
 
 const Logo = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import MainTitle from "../../components/HomePage/MainTitle/MainTitle";
 import ImagePart from "../../components/HomePage/ImagePart/ImagePart";
 import Stats from "../../components/HomePage/Stats/Stats";
-import { HomePageContainer, UpperContainer } from "./HomePage.styled";
+import { HomePageContainer, UpperContainer } from "./HomePages.styled.jsx";
 
 const HomePage = () => {
   return (

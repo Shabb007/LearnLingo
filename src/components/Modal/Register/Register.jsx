@@ -10,7 +10,7 @@ import {
   StyledForm,
   SubmitBtn,
   StyledError,
-} from "../Login/Login.styled";
+} from "../Login/Login.styled.jsx";
 import { whenUserRegister } from "../../../firebase/api";
 
 const initialValues = {

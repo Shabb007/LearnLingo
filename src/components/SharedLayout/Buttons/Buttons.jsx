@@ -7,7 +7,7 @@ import {
   LogoutBtn,
   RegisterBtn,
   UserName,
-} from "./Buttons.styled";
+} from "./Buttons.styled.jsx";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../../../firebase/firebase";
 
