@@ -2,14 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
-const apiKey = process.env.REACT_APP_API_KEY;
-const authDomain = process.env.REACT_APP_AUTH_DOMAIN;
-const databaseURL = process.env.REACT_APP_DATABASE_URL;
-const projectId = process.env.REACT_APP_PROJECT_ID;
-const storageBucket = process.env.REACT_APP_STORAGE_BUCKET;
-const messagingSenderId = process.env.REACT_APP_MESSAGING_SENDER_ID;
-const appId = process.env.REACT_APP_APP_ID;
-const measurementId = process.env.REACT_APP_MEASUREMENT_ID;
+// TODO: Replace these with your actual Firebase project credentials
+// You can find these in your Firebase Console > Project Settings > General > Your apps
+const apiKey = "your_api_key_here";
+const authDomain = "learnlingo-9cc3.firebaseapp.com";
+const databaseURL = "https://learnlingo-9cc3-default-rtdb.firebaseio.com";
+const projectId = "learnlingo-9cc3";
+const storageBucket = "learnlingo-9cc3.appspot.com";
+const messagingSenderId = "your_messaging_sender_id_here";
+const appId = "your_app_id_here";
+const measurementId = "your_measurement_id_here";
 
 const firebaseConfig = {
   apiKey,
